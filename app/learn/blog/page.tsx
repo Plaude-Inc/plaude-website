@@ -189,7 +189,7 @@ export default function BlogPage() {
       </section>
 
       {/* Newsletter CTA */}
-      <section className="relative py-20 sm:py-24 bg-primary-brand overflow-hidden grain-overlay">
+      {/* <section className="relative py-20 sm:py-24 bg-primary-brand overflow-hidden grain-overlay">
         <FadeUp>
           <div className="relative mx-auto max-w-2xl px-4 sm:px-6 lg:px-8 text-center z-10">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-on-primary">
@@ -211,7 +211,7 @@ export default function BlogPage() {
             <p className="mt-3 text-xs text-on-primary/40">No spam. Unsubscribe any time.</p>
           </div>
         </FadeUp>
-      </section>
+      </section> */}
     </div>
   );
 }

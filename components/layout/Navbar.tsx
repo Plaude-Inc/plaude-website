@@ -20,14 +20,14 @@ import {
 
 const learnItems = [
   { title: 'Blog', description: 'Get a deep dive into our updates', href: '/learn/blog', icon: BookOpen },
-  { title: 'Help Center', description: 'Explore our support and resources', href: '/learn/help-center', icon: HelpCircle },
-  { title: 'Video Tutorials', description: 'Learn how Plaude works', href: '/learn/video-tutorials', icon: PlayCircle },
+  // { title: 'Help Center', description: 'Explore our support and resources', href: '/learn/help-center', icon: HelpCircle },
+  // { title: 'Video Tutorials', description: 'Learn how Plaude works', href: '/learn/video-tutorials', icon: PlayCircle },
 ];
 
 const companyItems = [
   { title: 'About Us', description: 'Learn more about the team', href: '/company/about', icon: Users },
-  { title: 'Careers', description: 'Become one of us', href: '/company/careers', icon: Briefcase },
-  { title: 'The Plaude Circle', description: 'Join our community', href: '/company/plaude-circle', icon: Heart },
+  // { title: 'Careers', description: 'Become one of us', href: '/company/careers', icon: Briefcase },
+  // { title: 'The Plaude Circle', description: 'Join our community', href: '/company/plaude-circle', icon: Heart },
 ];
 
 export function Navbar() {

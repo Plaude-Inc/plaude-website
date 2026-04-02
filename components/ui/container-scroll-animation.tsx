@@ -40,7 +40,7 @@ export const ContainerScroll = ({
       ref={containerRef}
     >
       <div
-        className="py-10 md:py-40 w-full relative"
+        className="py-10 pt-[6rem] md:py-40 w-full relative"
         style={{
           perspective: "1000px",
         }}
@@ -57,9 +57,9 @@ export const ContainerScroll = ({
 export const Header = ({ translate, titleComponent }: { translate: MotionValue<number>; titleComponent: React.ReactNode }) => {
   return (
     <motion.div
-      style={{
-        translateY: translate,
-      }}
+      // style={{
+      //   translateY: translate,
+      // }}
       className="div max-w-5xl mx-auto text-center"
     >
       {titleComponent}

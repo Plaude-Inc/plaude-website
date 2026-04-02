@@ -146,13 +146,13 @@ export function WhoWeAreFor() {
                         <p className="mt-2 text-xl sm:text-2xl font-semibold text-on-background leading-tight tracking-[-0.02em]">
                           {slide.subheadline}
                         </p>
-                        <Link
+                        {/* <Link
                           href="#"
                           className="inline-flex items-center gap-1.5 text-sm font-medium text-primary-brand hover:text-primary-container transition-colors mt-4 group/link"
                         >
                           Learn More
                           <ArrowRight className="size-4 transition-transform group-hover/link:translate-x-1" />
-                        </Link>
+                        </Link> */}
                       </div>
                     </div>
                   </CarouselItem>

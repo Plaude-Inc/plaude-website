@@ -50,7 +50,7 @@ function Footer() {
                     Blog
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="/learn/help-center" className="text-on-background/50 hover:text-on-background text-sm transition-colors">
                     Help Center
                   </Link>
@@ -59,7 +59,7 @@ function Footer() {
                   <Link href="/learn/video-tutorials" className="text-on-background/50 hover:text-on-background text-sm transition-colors">
                     Video Tutorials
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div>
@@ -70,7 +70,7 @@ function Footer() {
                     About Us
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="/company/careers" className="text-on-background/50 hover:text-on-background text-sm transition-colors">
                     Careers
                   </Link>
@@ -79,7 +79,7 @@ function Footer() {
                   <Link href="/company/plaude-circle" className="text-on-background/50 hover:text-on-background text-sm transition-colors">
                     The Plaude Circle
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div>

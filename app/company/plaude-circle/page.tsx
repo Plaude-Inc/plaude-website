@@ -32,7 +32,7 @@ export default function PlaudeCirclePage() {
                   The Plaude Circle is a community for global business operators, fintech enthusiasts,
                   and curious minds who want to stay ahead — and help shape what&apos;s next.
                 </p>
-                <div className="mt-8 flex items-center gap-6">
+                <div className="mt-8 flex items-center gap-6 flex-wrap">
                   <Link
                     href="#"
                     className="inline-flex items-center gap-2 rounded-full bg-primary-brand text-on-primary hover:bg-primary-container h-12 px-8 text-[15px] font-medium transition-all hover:shadow-lg hover:shadow-primary-brand/20"
@@ -50,9 +50,9 @@ export default function PlaudeCirclePage() {
 
               {/* Community illustration area */}
               <div className="relative">
-                <div className="rounded-3xl overflow-hidden atmospheric-shadow-lg bg-gradient-to-br from-amber-100 via-amber-50 to-yellow-50 p-8 aspect-square flex items-center justify-center">
+                <div className="rounded-3xl overflow-hidden atmospheric-shadow-lg bg-gradient-to-br from-amber-100 via-amber-50 to-yellow-50 px-4 py-8 aspect-square flex items-center justify-center">
                   <div className="text-center">
-                    <p className="text-6xl font-bold text-amber-900/20">Community</p>
+                    <p className="text-5xl sm:text-6xl font-bold text-amber-900/20">Community</p>
                     <p className="text-lg text-amber-800/40 mt-2 italic">meaningful connections to be</p>
                   </div>
                 </div>
