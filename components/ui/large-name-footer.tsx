@@ -86,13 +86,23 @@ function Footer() {
               <h3 className="font-semibold text-on-background mb-4 text-sm">Legal</h3>
               <ul className="space-y-2.5">
                 <li>
-                  <Link href="#" className="text-on-background/50 hover:text-on-background text-sm transition-colors">
+                  <Link href="/legal/privacy-policy" className="text-on-background/50 hover:text-on-background text-sm transition-colors">
                     Privacy Policy
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-on-background/50 hover:text-on-background text-sm transition-colors">
+                  <Link href="/legal/terms-of-use" className="text-on-background/50 hover:text-on-background text-sm transition-colors">
                     Terms of Service
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/legal/cookie-policy" className="text-on-background/50 hover:text-on-background text-sm transition-colors">
+                    Cookie Policy
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/legal/modern-slavery-statement" className="text-on-background/50 hover:text-on-background text-sm transition-colors">
+                    Modern Slavery
                   </Link>
                 </li>
               </ul>
