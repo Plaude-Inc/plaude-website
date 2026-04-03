@@ -168,15 +168,18 @@ export function Navbar() {
           </div>
 
           <Link
-            href="#"
+            href="/login"
             className={buttonVariants({ variant: 'ghost', className: 'text-on-background/80 hover:text-on-background hover:bg-surface-lowest/60' })}
           >
             Sign In
           </Link>
 
-          <Button className="rounded-full bg-primary-brand text-on-primary hover:bg-primary-container ml-1 h-9 px-5 text-sm font-medium transition-all duration-200 hover:shadow-lg hover:shadow-primary-brand/20">
+          <Link
+            href="/get-started"
+            className="rounded-full bg-primary-brand text-on-primary hover:bg-primary-container ml-1 h-9 px-5 text-sm font-medium transition-all duration-200 hover:shadow-lg hover:shadow-primary-brand/20 inline-flex items-center justify-center"
+          >
             Get Started
-          </Button>
+          </Link>
         </div>
 
         {/* Mobile toggle */}
@@ -245,12 +248,20 @@ export function Navbar() {
           </div>
 
           <div className="flex flex-col gap-3 pt-4">
-            <Button variant="outline" className="w-full rounded-full h-11 text-on-background">
+            <Link
+              href="/login"
+              onClick={() => setOpen(false)}
+              className={buttonVariants({ variant: 'outline', className: 'w-full rounded-full h-11 text-on-background' })}
+            >
               Sign In
-            </Button>
-            <Button className="w-full rounded-full h-11 bg-primary-brand text-on-primary hover:bg-primary-container">
+            </Link>
+            <Link
+              href="/get-started"
+              onClick={() => setOpen(false)}
+              className={buttonVariants({ className: 'w-full rounded-full h-11 bg-primary-brand text-on-primary hover:bg-primary-container' })}
+            >
               Get Started — It&apos;s Free
-            </Button>
+            </Link>
           </div>
         </div>
       </div>

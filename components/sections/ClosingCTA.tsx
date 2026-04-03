@@ -28,7 +28,7 @@ export function ClosingCTA() {
 
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="#"
+              href="/get-started"
               className="inline-flex items-center justify-center gap-2 bg-on-primary text-primary-brand hover:bg-on-primary/90 h-12 px-8 text-[15px] font-semibold rounded-full transition-all duration-200 hover:shadow-xl hover:shadow-black/10"
             >
               Get Started — It&apos;s Free

@@ -26,7 +26,7 @@ export function Hero() {
 
             <div className="mt-10 flex flex-col sm:flex-row gap-3 justify-center">
               <Link
-                href="#"
+                href="/get-started"
                 className="inline-flex items-center justify-center gap-2 rounded-full bg-primary-brand text-on-primary hover:bg-primary-container h-12 px-8 text-[15px] font-medium transition-all duration-200 hover:shadow-lg hover:shadow-primary-brand/20"
               >
                 Get Started — It&apos;s Free
