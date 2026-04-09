@@ -122,11 +122,10 @@ export default function AboutPage() {
       </section>
 
       {/* CEO Message — B&W photo left, purple card right */}
-      <section className="py-24 sm:py-32">
+      {/* <section className="py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <FadeUp>
             <div className="grid md:grid-cols-2 gap-0 rounded-3xl overflow-hidden atmospheric-shadow-lg">
-              {/* Left — B&W editorial photo */}
               <div className="bg-white flex items-center justify-center p-0">
                 <Image
                   src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=700&fit=crop&crop=face"
@@ -136,7 +135,6 @@ export default function AboutPage() {
                   className="w-full h-full object-cover aspect-[4/5] grayscale"
                 />
               </div>
-              {/* Right — purple quote card */}
               <div className="bg-primary-brand p-8 md:p-12 flex flex-col justify-center grain-overlay relative">
                 <div className="relative z-10">
                   <SectionLabel>Message from the CEO</SectionLabel>
@@ -154,10 +152,10 @@ export default function AboutPage() {
             </div>
           </FadeUp>
         </div>
-      </section>
+      </section> */}
 
       {/* The Team — simple row of 4 portraits matching design */}
-      <section className="py-24 sm:py-32">
+      {/* <section className="py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <FadeUp>
             <div className="mb-12">
@@ -188,7 +186,7 @@ export default function AboutPage() {
             ))}
           </StaggerContainer>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA — "Join the Revolution" */}
       <section className="relative py-24 sm:py-32 bg-primary-brand overflow-hidden grain-overlay">
