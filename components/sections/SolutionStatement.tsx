@@ -4,8 +4,8 @@ import { FadeUp } from "@/components/shared/FadeUp";
 import { AnimatedCounter } from "@/components/shared/AnimatedCounter";
 
 const stats = [
-  { target: 10, prefix: "$", suffix: "B+", label: "Volume Processed" },
-  { target: 10000, prefix: "", suffix: "+", label: "Global Businesses" },
+  { target: 2, prefix: "$", suffix: "B+", label: "Volume Processed" },
+  { target: 150, prefix: "", suffix: "+", label: "Global Businesses" },
   { target: 150, prefix: "", suffix: "+", label: "Countries Supported" },
   { target: 99, prefix: "", suffix: ".999%", label: "Uptime" },
 ];

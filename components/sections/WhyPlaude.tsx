@@ -17,7 +17,7 @@ const features = [
     title: "Global Payout",
     image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop",
     description:
-      "Pay suppliers, contractors, and partners anywhere in the world using local payment rails. Bypass the slow SWIFT network — and save more money with lower fees and full transparency on every transaction.",
+      "Pay suppliers, contractors, and partners anywhere in the world using local payment rails. Bypass the SWIFT network — and save more money with lower fees and full transparency on every transaction.",
   },
   {
     id: 3,
