@@ -8,7 +8,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { BLOG_POSTS } from "@/lib/blog-data";
 
-const categories = ["All", "Global Payments", "Business Finance", "Product Updates", "Think Pieces"];
+const categories = [
+  "All",
+  "Press",
+  "Global Payments",
+  "Business Finance",
+  "Product Updates",
+  "Think Pieces",
+];
 
 export default function BlogPage() {
   const [activeCategory, setActiveCategory] = useState("All");

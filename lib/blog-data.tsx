@@ -12,6 +12,141 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: "statement-from-plaude-technologies-limited",
+    title: "Statement from Plaude Technologies Limited",
+    category: "Press",
+    excerpt:
+      "Plaude Technologies is aware of a recent article and related social media posts concerning the company and its Founder. The reporting contains material inaccuracies, and we are setting out the facts.",
+    heroImage: "/images/blog/press-release.png",
+    readTime: "3 min read",
+    content: (
+      <>
+        <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-primary-brand">
+          Lagos · 17 August 2026
+        </p>
+
+        <p className="mt-6 text-lg leading-relaxed">
+          Plaude Technologies is aware of a recent article and related social
+          media posts concerning the company and its Founder. The reporting
+          contains material inaccuracies, and we are setting out the facts.
+        </p>
+
+        <p className="mt-6">
+          Plaude is a regulated cross-border payments and trade finance company
+          serving businesses across more than 50 countries, enabling companies
+          to move money and finance trade across African and North American
+          corridors. Since inception in 2023, Plaude has successfully settled
+          over USD 1 billion in payouts. The company is registered as a Money
+          Services Business with FinCEN in the United States, holds FINTRAC
+          registration and a Payment Service Provider licence from the Bank of
+          Canada, and its Nigerian entity is licensed by the Central Bank of
+          Nigeria as an International Money Transfer Operator.
+        </p>
+
+        <p className="mt-6">
+          These registrations are matters of public record and can be verified
+          through the relevant registries.
+        </p>
+
+        <p className="mt-6">
+          The matter referenced in the reporting arises from a single commercial
+          currency transaction entered in March 2026. Under the agreements,
+          Plaude delivered approximately 68% of the total obligation — over USD
+          8.9 million — to the counterparty&apos;s designated accounts within
+          the agreed settlement window. A balance remains outstanding. Plaude
+          has at no point denied that obligation, and its resolution is being
+          actively pursued.
+        </p>
+
+        <p className="mt-6">
+          The shortfall arose from severe banking disruptions affecting the
+          company during the settlement period — part of a well-documented
+          de-risking cycle that has restricted banking access for cross-border
+          payment platforms serving African corridors. It did not arise from any
+          unwillingness or intention not to pay. Plaude has settled obligations
+          at scale, over a sustained period and across multiple jurisdictions;
+          this transaction was interrupted by a disruption to banking access,
+          not by any departure from how the company operates.
+        </p>
+
+        <p className="mt-6">
+          This is a commercial dispute, and it is now subject to due process. No
+          charges have been filed against the company or any of its officers,
+          and no court has determined any wrongdoing. Plaude is engaging with
+          the relevant authorities through counsel and will continue to do so.
+        </p>
+
+        <p className="mt-6">
+          We must also correct the record on the reporting itself. Contrary to
+          the article&apos;s claim that Plaude did not respond to pre-publication
+          inquiries, the company&apos;s counsel provided a formal written
+          response before publication, identifying specific inaccuracies. That
+          response was not reflected in the published story.
+        </p>
+
+        <p className="mt-6">
+          Several of the article&apos;s other claims are contradicted by publicly
+          verifiable records, including the company&apos;s registrations, which
+          any reader can confirm through the relevant public registries.
+        </p>
+
+        <p className="mt-6">
+          Plaude categorically rejects the personal insinuations directed at its
+          Founder. They are false, and the company has reserved all of its legal
+          rights in respect of the publication.
+        </p>
+
+        <p className="mt-6">
+          Plaude continues to operate under its licences and registrations and
+          to serve its customers.
+        </p>
+
+        <p className="mt-6">
+          Because the matter is before the authorities, Plaude will not be
+          commenting further on its substance. Updates, where appropriate, will
+          be provided through official channels only.
+        </p>
+
+        <div className="my-12 px-6 py-7 bg-surface-lowest rounded-2xl">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-primary-brand">
+            Signed
+          </p>
+          <p className="mt-2 text-base font-semibold text-on-background">
+            Management
+          </p>
+
+          <p className="mt-7 text-[11px] font-semibold uppercase tracking-[0.16em] text-primary-brand">
+            Media Contact
+          </p>
+          <p className="mt-2 text-base text-on-background">
+            <a
+              href="mailto:hello@plaude.io"
+              className="font-medium hover:text-primary-brand transition-colors"
+            >
+              hello@plaude.io
+            </a>
+            <span className="mx-2 text-on-background/30">·</span>
+            <a
+              href="https://plaude.io"
+              className="font-medium hover:text-primary-brand transition-colors"
+            >
+              plaude.io
+            </a>
+          </p>
+        </div>
+
+        <p className="text-xs leading-relaxed text-on-background/40">
+          This material is provided by Plaude Technologies Limited for
+          informational purposes only and should not be construed as tax,
+          accounting or legal advice. Plaude is not a bank, is not NDIC insured
+          and does not guarantee the completeness of this information. Use of
+          Plaude services is subject to our Terms and Conditions. Consult your
+          own advisors regarding your specific circumstances.
+        </p>
+      </>
+    ),
+  },
+  {
     slug: "how-government-bonds-affect-global-businesses",
     title: "How Government Bonds Affect Global Businesses",
     category: "Global Payments",
@@ -106,6 +241,73 @@ export const BLOG_POSTS: BlogPost[] = [
           international exposure. Platforms like Plaude give finance teams the
           visibility and multi-currency flexibility to respond quickly when the
           macro environment shifts.
+        </p>
+      </>
+    ),
+  },
+  {
+    slug: "does-selling-only-in-usd-put-your-business-at-risk",
+    title: "Does Selling Only in USD Put Your Business at Risk?",
+    category: "Global Payments",
+    excerpt:
+      "If you're a U.S.-based business billing international customers exclusively in USD, you may be exposing yourself to more risk than you realise.",
+    heroImage: "/images/blog/usd-risk.png",
+    readTime: "1 min read",
+    content: (
+      <>
+        <p className="text-lg leading-relaxed">
+          If you&apos;re a U.S.-based business billing international customers
+          exclusively in USD, you may be exposing yourself to more risk than you
+          realise. While invoicing in your home currency feels like the safe
+          choice, it places a real financial burden on your overseas buyers—and
+          that burden has a habit of coming back to you.
+        </p>
+
+        <h2 className="text-2xl font-semibold text-on-background mt-12 mb-4">
+          What Actually Happens to Your Customer
+        </h2>
+        <p>
+          When exchange rates shift between the time you price a deal and the
+          payment due date, your foreign customer must provide substantially more
+          local currency to cover the same USD amount. A 5–10% FX movement can
+          make an agreed deal feel like a bad one—and buyers respond predictably:
+          they delay, they renegotiate, or they walk away.
+        </p>
+        <p className="mt-4">
+          The risks that result for your business are real:
+        </p>
+        <ul className="mt-4 space-y-2 list-disc pl-6 text-on-background/80">
+          <li>Lost sales opportunities as buyers abandon deals that no longer pencil out</li>
+          <li>Inventory delays at ports as goods sit waiting for buyers to commit</li>
+          <li>Pressure to discount in secondary markets to move stalled product</li>
+        </ul>
+
+        <h2 className="text-2xl font-semibold text-on-background mt-12 mb-4">
+          The Smarter Approach
+        </h2>
+        <p>
+          The solution isn&apos;t to absorb all FX risk yourself—it&apos;s to
+          give customers the option to pay in their local currency while managing
+          your own exposure intelligently. Many businesses that make this switch
+          slightly increase their foreign currency pricing to protect margins,
+          while dramatically improving the customer&apos;s payment experience.
+        </p>
+
+        <blockquote className="my-12 pl-6 py-6 bg-surface-lowest rounded-2xl">
+          <p className="text-xl font-semibold text-on-background italic leading-snug">
+            &ldquo;Restricting to USD alone limits global expansion, increases
+            transaction friction, and elevates non-payment risk. Local currency
+            options strengthen customer relationships and reduce operational
+            disruptions.&rdquo;
+          </p>
+        </blockquote>
+
+        <p>
+          The businesses winning in international markets are those that make it
+          as easy as possible for customers to pay. That means meeting them where
+          they are—in their currency. Plaude gives you the infrastructure to
+          accept local currencies globally, manage your FX exposure, and protect
+          your margins without adding operational complexity.
         </p>
       </>
     ),
@@ -208,73 +410,6 @@ export const BLOG_POSTS: BlogPost[] = [
           efficient path for every payment. Whether you&apos;re paying suppliers
           in Asia or collecting from clients in Europe, a single account handles
           it all.
-        </p>
-      </>
-    ),
-  },
-  {
-    slug: "does-selling-only-in-usd-put-your-business-at-risk",
-    title: "Does Selling Only in USD Put Your Business at Risk?",
-    category: "Global Payments",
-    excerpt:
-      "If you're a U.S.-based business billing international customers exclusively in USD, you may be exposing yourself to more risk than you realise.",
-    heroImage: "/images/blog/usd-risk.png",
-    readTime: "1 min read",
-    content: (
-      <>
-        <p className="text-lg leading-relaxed">
-          If you&apos;re a U.S.-based business billing international customers
-          exclusively in USD, you may be exposing yourself to more risk than you
-          realise. While invoicing in your home currency feels like the safe
-          choice, it places a real financial burden on your overseas buyers—and
-          that burden has a habit of coming back to you.
-        </p>
-
-        <h2 className="text-2xl font-semibold text-on-background mt-12 mb-4">
-          What Actually Happens to Your Customer
-        </h2>
-        <p>
-          When exchange rates shift between the time you price a deal and the
-          payment due date, your foreign customer must provide substantially more
-          local currency to cover the same USD amount. A 5–10% FX movement can
-          make an agreed deal feel like a bad one—and buyers respond predictably:
-          they delay, they renegotiate, or they walk away.
-        </p>
-        <p className="mt-4">
-          The risks that result for your business are real:
-        </p>
-        <ul className="mt-4 space-y-2 list-disc pl-6 text-on-background/80">
-          <li>Lost sales opportunities as buyers abandon deals that no longer pencil out</li>
-          <li>Inventory delays at ports as goods sit waiting for buyers to commit</li>
-          <li>Pressure to discount in secondary markets to move stalled product</li>
-        </ul>
-
-        <h2 className="text-2xl font-semibold text-on-background mt-12 mb-4">
-          The Smarter Approach
-        </h2>
-        <p>
-          The solution isn&apos;t to absorb all FX risk yourself—it&apos;s to
-          give customers the option to pay in their local currency while managing
-          your own exposure intelligently. Many businesses that make this switch
-          slightly increase their foreign currency pricing to protect margins,
-          while dramatically improving the customer&apos;s payment experience.
-        </p>
-
-        <blockquote className="my-12 pl-6 py-6 bg-surface-lowest rounded-2xl">
-          <p className="text-xl font-semibold text-on-background italic leading-snug">
-            &ldquo;Restricting to USD alone limits global expansion, increases
-            transaction friction, and elevates non-payment risk. Local currency
-            options strengthen customer relationships and reduce operational
-            disruptions.&rdquo;
-          </p>
-        </blockquote>
-
-        <p>
-          The businesses winning in international markets are those that make it
-          as easy as possible for customers to pay. That means meeting them where
-          they are—in their currency. Plaude gives you the infrastructure to
-          accept local currencies globally, manage your FX exposure, and protect
-          your margins without adding operational complexity.
         </p>
       </>
     ),
@@ -407,7 +542,7 @@ export const BLOG_POSTS: BlogPost[] = [
         </blockquote>
 
         <h2 className="text-2xl font-semibold text-on-background mt-12 mb-4">
-          The Dangerous Myth of "Selling in USD Only"
+          The Dangerous Myth of &ldquo;Selling in USD Only&rdquo;
         </h2>
         <p>
           Many exporters believe they&apos;ve solved this by invoicing exclusively
