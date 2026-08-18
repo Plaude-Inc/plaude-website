@@ -7,6 +7,8 @@ export interface BlogPost {
   excerpt: string;
   heroImage: string;
   readTime: string;
+  /** ISO 8601 date (YYYY-MM-DD). Optional — only set where the date is known. */
+  publishedAt?: string;
   content: React.ReactNode;
 }
 
@@ -19,6 +21,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Plaude Technologies is aware of a recent article and related social media posts concerning the company and its Founder. The reporting contains material inaccuracies, and we are setting out the facts.",
     heroImage: "/images/blog/press-release.png",
     readTime: "3 min read",
+    publishedAt: "2026-08-17",
     content: (
       <>
         <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-primary-brand">
