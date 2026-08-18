@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { BLOG_POSTS, getBlogPost } from "@/lib/blog-data";
+import { SITE_NAME } from "@/lib/site";
 import type { Metadata } from "next";
 
 export async function generateStaticParams() {
@@ -18,7 +19,34 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const post = getBlogPost(slug);
-  return { title: post ? `${post.title} — Plaude Journal` : "Blog" };
+
+  if (!post) {
+    return { title: { absolute: `Article Not Found — ${SITE_NAME}` } };
+  }
+
+  const url = `/learn/blog/${post.slug}`;
+
+  return {
+    title: { absolute: `${post.title} — Plaude Journal` },
+    description: post.excerpt,
+    alternates: { canonical: url },
+    openGraph: {
+      type: "article",
+      title: post.title,
+      description: post.excerpt,
+      url,
+      siteName: SITE_NAME,
+      section: post.category,
+      publishedTime: post.publishedAt,
+      images: [{ url: post.heroImage, alt: post.title }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.excerpt,
+      images: [post.heroImage],
+    },
+  };
 }
 
 export default async function BlogDetailPage({
